@@ -3,7 +3,7 @@ Feature: Google Search Functionality
   Background:
    Given the user is on Google Search Page
 
-@DellTest1
+@DellTest
   Scenario: Verifying the search Results are displayed correctly
     And I enter "Dell Laptops" in the search box
     And I click on google search button
